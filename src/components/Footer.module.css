@@ -1,0 +1,43 @@
+.footer {
+  grid-area: footer;
+  background-color: mediumseagreen;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footerText {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.footerText h1 {
+  margin: 0.3rem 0;
+}
+
+.footerContent p {
+  font-family: "Ephesis", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+  background-color: rebeccapurple;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0rem 0rem 1rem mediumorchid;
+}

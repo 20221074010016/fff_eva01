@@ -1,0 +1,22 @@
+.header1 {
+  grid-area: header1;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header1 h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  color: limegreen;
+  margin-left: 40px;
+  font-family: inherit;
+}
+
+.header1 svg {
+  width: 6rem;
+  height: 6rem;
+  color: limegreen;
+  border-radius: 1rem;
+}

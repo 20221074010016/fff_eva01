@@ -1,0 +1,25 @@
+.card {
+  background-color: mediumorchid;
+  border-radius: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 1);
+  font-size: 1.25rem;
+  text-align: center;
+  height: 45rem;
+}
+
+.card h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: limegreen;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  box-shadow: 0.25rem 0.25rem 1rem black;
+  margin: 0 auto 20px;
+}
