@@ -8,9 +8,6 @@ import { LuckyNumber } from './components/LuckyNumber';
 function App() {
   return (
     <div className={styles.container}>
-      <Header />
-      <Main />
-      <Footer />
       <LuckyNumber/>
     </div>
   );
