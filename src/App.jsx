@@ -4,11 +4,11 @@ import { Header } from './components/Header';
 import { Main } from './components/Main';
 import { Footer } from './components/Footer';
 import { LuckyNumber } from './components/LuckyNumber';
-
+import { Product_list } from './components/Product_list';
 function App() {
   return (
     <div className={styles.container}>
-      <LuckyNumber/>
+      <Product_list/>
     </div>
   );
 }
