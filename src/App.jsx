@@ -1,7 +1,7 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { ProductList } from "./components/ProductList";
-import { Header } from "./components/HeaderStore"; 
+import { HeaderStore } from "./components/HeaderStore"; 
 import { useState } from "react";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
   return (
     //React Fragment
     <>
-      <Header cart={cart} />
+      <HeaderStore cart={cart} />
       <ProductList addToCart={addToCart} />
     </>
   );
