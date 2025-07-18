@@ -1,7 +1,7 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { ProductList } from "./components/ProductList";
-import { Header } from "./components/HeaderStore"; 
+import { Header } from "./components/Header";
 import { useState } from "react";
 
 export default function App() {
